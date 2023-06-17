@@ -1,0 +1,15 @@
+CREATE DATABASE Final_0907-23-14346;
+USE Final_0907-23-14346;
+
+CREATE TABLE dato (
+codigo int PRIMARY KEY,
+	nombre varchar (20) NOT NULL,
+	precio int (4) NOT NULL,
+	existencia int (3)
+);
+
+INSERT INTO dato VALUES (1, 'cereal', 25, 55);
+INSERT INTO dato VALUES (2, 'popcorn', 15, 30);
+INSERT INTO dato VALUES (3, 'cafe', 20, 93);
+INSERT INTO dato VALUES (4, 'galletas', 5, 10);
+INSERT INTO dato VALUES (5, 'paletas', 2, 40);
